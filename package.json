@@ -4,10 +4,10 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js",
+    "start": "node main.js"
   },
   "author": "",
-  "license": "BSD",
+  "license": "MIT",
   "dependencies": {
     "babel-polyfill": "^6.16.0",
     "babel-register": "^6.18.0",
