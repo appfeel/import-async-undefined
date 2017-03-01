@@ -9,4 +9,4 @@ require('babel-register')({
         'stage-3',
     ],
 });
-require('./router.js');
+require('./testRouter.js');

@@ -4,14 +4,16 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "nodemon ./run-es6.js"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "^6.16.0",
-    "babel-register": "^6.18.0",
+    "babel-preset-babili": "0.0.11",
     "babel-preset-env": "^1.1.8",
-    "babel-preset-stage-3": "^6.22.0"
+    "babel-preset-stage-3": "^6.22.0",
+    "babel-register": "^6.18.0",
+    "nodemon": "^1.11.0"
   }
 }
